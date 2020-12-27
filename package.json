@@ -1,0 +1,12 @@
+{
+  "name": "@ginpei/eslintrc",
+  "version": "1.0.0",
+  "description": "ESLint config by Ginpei",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ginpei Takanashi",
+  "license": "N/A"
+}
