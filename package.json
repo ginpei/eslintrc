@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "description": "ESLint config by Ginpei",
   "main": ".eslintrc.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
   "author": "Ginpei Takanashi",
-  "license": "N/A"
+  "license": "N/A",
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "typescript": "^4.1.3"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1"
+  }
 }

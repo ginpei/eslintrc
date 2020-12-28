@@ -34,6 +34,7 @@ module.exports = {
       { devDependencies: ["**/*.test.{ts,tsx}"] },
     ],
     "import/prefer-default-export": "off",
+    "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
     "no-use-before-define": "off", // leave it to @typescript-eslint
     "no-useless-constructor": "off", // leave it to @typescript-eslint
   },
