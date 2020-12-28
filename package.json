@@ -1,6 +1,6 @@
 {
   "name": "@ginpei/eslintrc",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ESLint config by Ginpei",
   "main": ".eslintrc.js",
   "author": "Ginpei Takanashi",
