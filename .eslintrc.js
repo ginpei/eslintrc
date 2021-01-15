@@ -23,6 +23,7 @@ module.exports = {
   plugins: ["prettier"],
   rules: {
     "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-shadow": "error",
     "@typescript-eslint/no-unused-vars": "off", // leave it to tsc
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/no-useless-constructor": "error",
@@ -35,6 +36,7 @@ module.exports = {
     ],
     "import/prefer-default-export": "off",
     "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
+    "no-shadow": "off", // leave it to @typescript-eslint
     "no-use-before-define": "off", // leave it to @typescript-eslint
     "no-useless-constructor": "off", // leave it to @typescript-eslint
   },
