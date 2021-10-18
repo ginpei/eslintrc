@@ -40,4 +40,13 @@ module.exports = {
     "no-use-before-define": "off", // leave it to @typescript-eslint
     "no-useless-constructor": "off", // leave it to @typescript-eslint
   },
+  overrides: [
+    {
+      files: "*.{js,jsx}",
+      rules: {
+        "@typescript-eslint/ban-ts-comment": "off",
+        "@typescript-eslint/no-var-requires": "off",
+      },
+    },
+  ],
 };
